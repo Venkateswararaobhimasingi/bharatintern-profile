@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Profile</title>
+    <style>
+        body {
+            font-family: 'Arial', sans-serif;
+            margin: 0;
+            padding: 0;
+            background-image: url("https://images.unsplash.com/photo-1697758885406-4d7136458e18?q=80&w=1935&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D");
+            background-size: cover;
+        }
+
+        section {
+            max-width: 800px;
+            margin: 20px auto;
+            background:transparent;
+            backdrop-filter: blur(20px);
+            padding: 20px;
+            border-radius: 8px;
+            box-shadow: 0 10px 10px rgba(16, 16, 15, 0.2);
+            transition: transform 0.3s ease-in-out;
+        }
+
+        section:hover {
+            transform: scale(1.02);
+        }
+
+        h1, h2 {
+            color: #333;
+            text-align: center;
+        }
+
+        p {
+            line-height: 1.6;
+            color: #555;
+            text-align: center;
+        }
+
+        ul {
+            list-style-type: none;
+            padding: 0;
+        }
+
+        li {
+            margin-bottom: 8px;
+        }
+
+        .profile-img {
+            max-width: 100%;
+            border-radius: 50%;
+            margin: 20px auto;
+            display: flex;
+        }
+
+        .social-links {
+            display: flex;
+            justify-content: center;
+            margin-top: 20px;
+        }
+
+        .social-links a {
+            margin: 0 10px;
+            color: #333;
+            text-decoration: none;
+            font-size: 20px;
+            transition: color 0.3s ease-in-out;
+        }
+
+        .social-links a:hover {
+            color: #0077b5; /* LinkedIn color */
+        }
+    </style>
+</head>
+
+<body>
+
+
+    <section>
+        <img src="http://sves.org.in/Ecap/StudentPhotos/22A81A0503.jpg" alt="Profile Picture" class="profile-img">
+
+        <h2>Bhimasingi Venkateswara Rao</h2>
+        <p>student</p>
+
+        <h2>Contact Information</h2>
+        <ul>
+            <li>Email: srinu19773@gmail.com</li>
+            <li>Phone: 9491019773</li>
+        </ul>
+
+        <h2>Education</h2>
+        <ul>
+            <li>Sri Vasavi Engineering College, Bachelor of Science in Computer Science</li>
+        </ul>
+
+        <h2>Skills</h2>
+        <ul>
+            <li>Programming Languages: c , c++, Python</li>
+            <li>Web Development: HTML, CSS, React</li>
+        </ul>
+
+        <h2><b>Projects</b></h2>
+        <ul>
+            <li>Python - Face Recognition , Motion Dectetion , Edge dectetion </li>
+            <li>web development -weather website, profile page , Temperature calculator </li>
+        </ul>
+
+        <div class="social-links">
+            <a href="https://github.com/Venkateswararaobhimasingi" target="_blank" rel="noopener noreferrer">
+                <img src="https://github.githubassets.com/assets/GitHub-Mark-ea2971cee799.png" alt="GitHub Icon" width="30px">
+            </a>
+            <a href="www.linkedin.com/in/venkateswara-rao-bhimasingi-376981287" target="_blank" rel="noopener noreferrer">
+                <img src="https://img.icons8.com/?size=48&id=xuvGCOXi8Wyg&format=png" alt="LinkedIn Icon" width="30px">
+            </a>
+        </div>
+    </section>
+
+</body>
+
+</html>
